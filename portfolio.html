@@ -10,49 +10,80 @@
 </head>
 
 <body>
-    <nav class="header-blog">
-        <a href class="nav-bar-brand-name">Pham Tuan Thanh</a>
-        <button class="nav-bar-button" data-toggle="collapse" data-tarhet="#menu">
-            <span class="nav-bar-icon"></span>
-        </button>
-        <div class="collapse-navbar-collapse" id="menu">
-            <ul class="nav-bar-menu">
-                <li class="nav-bar-item"><a href="index.html">Trang chủ</a></li>
-                <li class="nav-bar-item"><a href="about.html">Âm nhạc</a></li>
-                <li class="nav-bar-item"><a href="portfolio.html">Game</a></li>
-                <li class="nav-bar-item"><a href="form.html">World</a></li>
-                <li class="nav-bar-item-dropdown">
-                    <a href="sports.html">
-                        Thể Thao
-                    </a>
-                    <div class="dropdown-menu-show" aria-labelledby="triggerId">
-                        <select name="" id="dropdown-menu-show">
-                            <option value="">Bóng Đá</option>
-                            <option value="">Bóng Rổ</option>
-                            <option value="">Bóng Bàn</option>
-                            <option value="">Bóng Chuyền</option>
-                            <option value="">Bóng Bầu Dục</option>
-                            <option value="">Bóng Khác</option>
-                        </select>
-                    </div>
-                </li>
-            </ul>
-            <ul class="nav-bar-login">
-                <li class="nav-bar-item"><a href="login.html">Đăng nhập</a></li>
-                <li class="nav-bar-item"><a href="register.html">Đăng ký</a></li>
-            </ul>
+    <header class="header-blog">
+        <img class="logo" src="image/mailam.jpg" alt="avatar" href="login.html">
+        <div class="nav_name">
+            <a class="cta" href="portfolio.html">Pham Tuan Thanh</a>
+
         </div>
-    </nav>
-    <div class="phong nen">
-        <div class="text-welcome">
-            <p>Hello Pham Ngoc Mai Lam</p>
-            <blockquote class="gioi-thieu-ban-than">
+        <nav>
+            <ul class="nav_links">
+                <li><a href="portfolio.html">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Portfolio</a></li>
+            </ul>
+        </nav>
+        <a class="cta" href="about.html"><button>Contact</button></a>
+        <div class="avatar">
+            <a class="cta" href="#"><img class="avatar" src="image/fb.png" alt="logo"></a>
+            <a class="cta" href="#"><img class="avatar" src="image/ytb.webp" alt="logo"></a>
+            <a class="cta" href="portfolio.html"><img class="avatar" src="image/Instagram-Icon.png" alt="logo"></a>
+        </div>
+    </header>
+    <div class="background-image">
+        <div class="box-shadow text-shadow">
+            <h1>The <code>"Trader"</code> guy</h1>
+            <p>
+                <code class="text-color">
+                    "Pham Tuan Thanh"
+                </code>
+            </p>
+            <blockquote class="blockquote-1">
                 <p class="text-color">
-                    "Xin chao Mai Lam. Cam on vi nhung nam thang do"
+                    "Xin chào mọi người ! Tôi là ABC, người tạo ra trang web ABC's blog này. <br> Đây là trang
+                    web
+                    về cuộc đời của tôi từ nhỏ đến bây giờ, những điều tôi trải qua <br>
+                    tôi sẽ đều chia sẻ cho mọi người. Rất mong mọi người lắng nghe."
                 </p>
             </blockquote>
+            <iframe width="360" height="240"
+                src="https://www.youtube.com/watch?v=pQN-pnXPaVg&ab_channel=freeCodeCamp.org"></iframe>
+            <footer class="blockquote-footer">
+                <p>
+                    "Pham Tuan Thanh"
+                </p>
+            </footer>
+
         </div>
 
+    </div>
+    <div class="row">
+        <div class="col-md-12 text-center">
+            <h2>Những người đồng sáng lập</h2>
+        </div>
+        <div class="col-md-12 text-center card">
+            <img class="card-img-top " src="mailam.jpg" alt="">
+            <div class="card-body">
+                <h4 class="card-title text-center">CEO of Phamlam's blog</h4>
+                <p class="card-text text-center text-info">Phạm Ngọc Mai Lâm</p>
+                <div class="row text-center mt-4">
+                    <div class="col-12">
+                        <a href="Phamlam.html" class="btn btn-outline-primary">See profile</a>
+                    </div>
+                </div>
+            </div>
+            <img class="card-img-top " src="leanhtu.jpg" alt="">
+            <div class="card-body">
+                <h4 class="card-title text-center">Co-founder of Phamlam's blog</h4>
+                <p class="card-text text-center text-info">Lê Anh Tú</p>
+                <div class="row text-center mt-4">
+                    <div class="col-12">
+                        <a href="Phamlam.html" class="btn btn-outline-primary">See profile</a>
+                    </div>
+                </div>
+            </div>
+        </div>  
+        
     </div>
 </body>
 
