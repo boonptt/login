@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1-0">
+  <link rel="stylesheet" href="h1.css">
+  <title>Form đăng ký</title>
+</head>
+
+<body>
+  <script src="main.js"></script>
+  <div id="wrapper">
+    <div class="nav">
+      <ul class="nav-list"> 
+        <button class="nav-item">Lưu</button>
+        <button class="nav-item">Tải</button>
+        <button class="nav-item">Hoàn Tất</button>
+      </ul>
+      <ul class="icon">
+        <img src="print.jpg" alt="" />
+      </ul>
+    </div>
+    <form action="">
+      <div> 
+        <div class="form-header">
+          <div class="form-information">
+            <p class="infor-1">Thông tin bệnh nhân</p>
+            <p class="infor-2">Bệnh nhân mới</p>
+          </div>
+          <div class="icon">
+            <img src="settings.png" alt="" />
+          </div>
+        </div>
+        <div class="form-group">
+          <div id="searching" class="form-item">
+            <label for="">Tìm Kiếm</label>
+            <input type="text" name="name" id="searching" class="form-input" placeholder="Nhập mã, thẻ BHYT">
+          </div>
+          <div id="codeLK" class="form-item">
+            <label for="">Mã LK</label>
+            <input type="text" name="name" id="codeLK" class="form-input">
+          </div>
+          <div id="code" class="form-item">
+            <label for="">Mã</label>
+            <input type="text" name="name" id="code" class="form-input">
+          </div>
+          <div id="name" class="form-item">
+            <label for="">Họ và tên</label>
+            <input type="text" name="name" id="name" class="form-input" placeholder="Nhập họ và tên">
+          </div>
+          <div class="form-item">
+            <label for="">Giới tính</label>
+            <select name="" class="gender-select">
+              <option value="">Nam</option>
+              <option value="">Nữ</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-group-1">
+          <div class="form-column-1">
+            <div id="birthday" class="form-item">
+              <label for="">Ngày Sinh</label>
+              <input type="date" name="name" id="name" class="form-input">
+            </div>
+            <div class="form-item">
+              <label for="">SĐT</label>
+              <input type="text" name="name" id="name" class="form-input">
+            </div>
+          </div>
+          <div class="form-column-2">
+            <div class="form-item">
+              <label for="">Năm Sinh</label>
+              <input type="text" name="name" id="name" class="form-input">
+            </div>
+            <div class="form-item">
+              <label for="">Số CMND</label>
+              <input type="text" name="name" id="name" class="form-input">
+            </div>
+          </div>
+          <div class="form-column-3">
+            <div>
+              <div id="age" class="form-item">
+                <label for="">Tuổi</label>
+                <input type="text" name="name" id="age" class="form-input">
+              </div>
+              <div id="nation" class="form-item">
+                <label for="">Quốc gia</label>
+                <select name="" id="nation">
+                  <option value="">Việt Nam</option>
+                  <option value="">Anh</option>
+                  <option value="">Pháp</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-column-4">
+              <div id="age-type" class="form-item">
+                <label for="">Loại tuổi</label>
+                <select name="" id="age-type">
+                  <option value="">Năm</option>
+                  <option value="">Tuổi</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-column-5-6">
+              <div class="form-column-5">
+                <div id="address" class="form-item">
+                  <label for="">Xã/Phường-Q.Huyện-Tỉnh/TP</label>
+                  <select name="" id="address">
+                    <option value="">Tp Hà Nội</option>
+                    <option value="">TP HCM</option>
+                    <option value="">Hải Dương</option>
+                    <option value="">Hưng Yên</option>
+                    <option value="">Lào Cai</option>
+                    <option value="">Nghệ An</option>
+                  </select>
+                </div>
+                <div id="dantoc" class="form-item">
+                  <label for="">Dân tộc</label>
+                  <select name="" id="dantoc">
+                    <option value="">Kinh</option>
+                    <option value="">Thái</option>
+                    <option value="">Hoa</option>
+                    <option value="">Khác</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-column-6">
+                <div id="address-1" class="form-item">
+                  <label for="">Địa chỉ(thôn/ngõ/ngách/số nhà</label>
+                  <input type="text" name="" id="address-1" class="form-input">
+                </div>
+                <div id="nghenghiep" class="form-item">
+                  <label for="">Nghề nghiệp</label>
+                  <select name="" id="dantoc">
+                    <option value="">Tự do</option>
+                    <option value="">Dân thường</option>
+                    <option value="">Quân nhân</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="form-body-1">
+            <div class="form-information">
+              <p class="infor-1">Thông tin đăng ký</p>
+            </div>
+          </div>
+          <div>
+            <div class="form-group-3">
+              <div id="sokham" class="form-item">
+                <label for="">Số Khám</label>
+                <input type="text" name="name" id="sokham" class="form-input">
+              </div>
+              <div id="time" class="form-item">
+                <label for="">Thời gian</label>
+                <input type="datetime-local" name="name" id="time" class="form-input">
+              </div>
+              <div id="object" class="form-item">
+                <label for="">Đối tượng</label>
+                <select name="" id="object">
+                  <option value="">có BH</option>
+                  <option value="">không có BH</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-group-4">
+              <div class="form-column-1">
+                <div id="type" class="form-item">
+                  <label for="">Loại(Trực tiếp vào từ)</label>
+                  <select name="" id="type">
+                    <option value="">Khám bệnh</option>
+                  </select>
+                </div>
+                <div class="form-item">
+                  <label for="">Nguồn đăng ký</label>
+                  <select name="" id="">
+                    <option value="">Trực tiếp</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-column-2">
+                <div class="form-item">
+                  <label for="">Ưu tiên</label>
+                  <select name="" id="">
+                    <option value="">Thường</option>
+                  </select>
+                </div>
+                <div class="form-item">
+                  <label for="">Hình thức</label>
+                  <select name="" id="">
+                    <option value="">Tự đến</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <div id="reason" class="form-item">
+              <div id="requirements" class="form-item">
+                <label for="">
+                  <input type="checkbox" name="" id="">
+                  <span>Yêu cầu</span>
+                </label>
+              </div>
+              <label for="">Lý do đến khám</label>
+              <input type="text" name="" id="reason" class="form-input">
+            </div>
+          </div>
+          <div class="form-body-2">
+            <div class="form-information">
+              <p class="infor-1">Thông tin yêu cầu()</p>
+            </div>
+          </div>
+          <div>
+            <table>
+              <tr>
+                <th id="STT">STT</th>
+                <th id="doituong">Đối tượng</th>
+                <th id="service">Dịch vụ</th>
+                <th id="details">Chi tiết</th>
+                <th id="place">Nơi thực hiện</th>
+                <th id="status">Trạng thái</th>
+                <th id="paybefore">Tạm ứng</th>
+                <th id="total">Thành tiền</th>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>Không bệnh nhân</td>
+                <td>Khám bệnh</td>
+                <td></td>
+                <td>PK cột sống</td>
+                <td id="new">mới</td>
+                <td></td>
+                <td>38.700</td>
+              </tr>
+            </table>
+          </div>
+          <div class="form-body-3">
+            <div class="form-information">
+              <p class="infor-1">Lịch sử khám,chữa bệnh</p>
+            </div>
+          </div>
+          <hr>
+          <div>
+            <div class="form-body-3">
+              <div class="form-information">
+                <p class="infor-1" id="references">Nguồn</p>
+              </div>
+        </div>
+      </div>
+    </form>
+  </div>
+
+</body>
+
+</html>

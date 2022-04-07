@@ -1,0 +1,11 @@
+.imgcontainer{
+    text-align: left;
+}
+.imgcontainer img{
+    width: 1%;
+    height: 1%;
+}
+
+.container{
+    background-color:#f1f1f1;
+}

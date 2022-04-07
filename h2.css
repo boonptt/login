@@ -1,0 +1,22 @@
+.header-blog {
+    background-color: wheat;
+}
+.collapse-navbar-collapse {
+    display: flex;
+    justify-content: space-between;
+}
+.nav-bar-menu {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    justify-content: space-between;
+}
+.nav-bar-login {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+}
+.text-color{
+    color: blue;
+
+}
